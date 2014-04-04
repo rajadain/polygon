@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<style type="text/css">
+    #controls {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        bottom: 30px;
+    }
+    #options {
+        position: fixed;
+        top: 30px;
+        right: 30px;
+    }
+</style>
+<script type="text/javascript" src="js/paper.js"></script>
+<script type="text/javascript" src="js/polygon.js"></script>
+</head>
+<body>
+    <canvas id="myCanvas" resize></canvas>
+    <div id="controls">
+        <button id="action" class="btn btn-primary" disabled="disabled">Solve</button>
+    </div>
+    <div id="options" class="btn-toolbar">
+        <div class="btn-group">
+            <a id="labels" class="btn btn-small"><i class="icon-tag"></i> Labels</a>
+            <a id="logging" class="btn btn-small"><i class="icon-list-alt"></i> Logging</a>
+        </div>
+    </div>
+</body>
+</html>
