@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Polygon by @rajadain</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <style type="text/css">
+    #header {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        top: 18px;
+    }
     #controls {
         width: 100%;
         text-align: center;
@@ -20,6 +27,9 @@
 </head>
 <body>
     <canvas id="myCanvas" resize></canvas>
+    <div id="header">
+        <h1>Polygon <small>by <a href="http://twitter.com/rajadain">@rajadain</a></small></h1>
+    </div>
     <div id="controls">
         <button id="action" class="btn btn-primary" disabled="disabled">Solve</button>
     </div>
