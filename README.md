@@ -26,3 +26,6 @@ My final attempt needed some inspiration, and after crawling the internet I fina
 
 ### Choosing PaperJS
 I had never done graphic work in JavaScript before, so was completely open to ideas. I tried out [ProcessingJS](http://processingjs.org), [PaperJS](http://paperjs.org), and [RaphaëlJS](http://raphaeljs.com). All three are brilliant projects. I started with ProcessingJS becuase I had done some work with [Processing](http://www.processing.org) at [Drexel](http://cci.drexel.edu/academics/graduate-programs/ms-in-software-engineering.aspx), and thought it might be easy to pick up, but it wasn't at the time. Raphaël seemed great too, and I think I got a little further in it than Processing, but in the end Paper had better metaphors for dealing with points and lines so I went with that.
+
+### Known Issues
+ * Doesn't work in Safari 7. Haven't investigated why. Updating PaperJS might fix that.
