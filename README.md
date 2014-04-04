@@ -1,5 +1,4 @@
-Polygon
-=======
+#   Polygon
 
 An expercise graphical processing in JavaScript using [PaperJS](http://paperjs.org).
 
@@ -9,6 +8,8 @@ I did this little project for an interview a couple of years ago. The task was t
 When you first start, you see a blank screen with a disabled *Solve* button, and two option buttons in the top right corner. Click around the screen to register points. Click *Solve* to create a simple polygon using the points. Click *Reset* to reset the screen.
 
 Clicking *Labels* toggles coordinates on each point. Clicking *Logging* toggles logging, which can be seen in the browser console.
+
+##  Algorithm
 
 My initial approaches to the problem can be found in `js/failed.js`, and the final successful one in `js/polygon.js`. I describe them briefly here:
 
